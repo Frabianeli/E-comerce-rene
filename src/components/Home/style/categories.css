@@ -1,0 +1,26 @@
+.container-select{
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+    margin-top: 5px;
+}
+select{
+    font-size: 0.9rem;
+    padding: 3px 6px 4px 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+    background-color:  var(--secondary-color);
+    width:115px;
+    cursor: pointer;
+    box-shadow: 2px 2px 0px #3c3c3ba3;
+}
+select:hover{
+    background-color: rgb(49, 49, 49);
+    color: white;
+}
+option{
+    font-size: 0.9rem;
+    color: #dfdfdf;
+    cursor: pointer;
+}
